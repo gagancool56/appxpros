@@ -1,0 +1,80 @@
+.header-area {
+  background: #fff;
+  height: 80px;
+}
+
+.header-area .main-nav .nav li a {
+  color: #0f0f0f;
+}
+
+.welcome-area .welcome-content h1 {
+  color: #165cc5;
+  font-weight: bold;
+}
+
+.welcome-area .welcome-content {
+  background: #fcfefc;
+}
+
+.welcome-area .welcome-content p {
+  color: black !important;
+}
+.text-primary {
+  color: #165cc5 !important;
+}
+
+.more {
+  display: none;
+}
+.showMore:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.header-area .main-nav .nav li a.btn-nav-line {
+  border: 1px solid #165cc5;
+}
+
+.header-area .main-nav .nav li a.menu-active {
+  color: #165cc5;
+}
+
+.header-area .main-nav .nav li a:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in;
+  color: #165cc5;
+}
+.dots {
+  display: inline-block;
+}
+
+.services-section .services-title {
+  margin-top: 10px;
+}
+.btn-primary-line {
+  background-color: #165cc5 !important;
+  color: #fff;
+}
+.home-services-item .white-service-icon {
+  display: none;
+}
+
+.page-works-web {
+  display: block;
+}
+.page-works-mobile {
+  display: none;
+}
+.work-image > img {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 420px) {
+  .page-works-web {
+    display: none;
+  }
+  .page-works-mobile {
+    display: block;
+  }
+}
